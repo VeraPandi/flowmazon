@@ -13,8 +13,8 @@ model Product {
     imageUrl    String
     name        String
     price       Int
-    createdAt   DateTime @default(now()) //Définie l'heure de la création d'un produit
-    updatedAt   DateTime @updatedAt // Met à jour l'heure de création du produit quand nous le modifions
+    createdAt   DateTime @default(now())
+    updatedAt   DateTime @updatedAt
 
     @@map("products")
 }
