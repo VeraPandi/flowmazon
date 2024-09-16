@@ -1,5 +1,5 @@
 "use client";
 
 export default function Error() {
-  return <div>Quelque chose n'a pas fonctionné. Veuillez réessayer.</div>;
+  return <div>Quelque chose n&apos;a pas fonctionné. Veuillez réessayer.</div>;
 }
