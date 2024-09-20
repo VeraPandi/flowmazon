@@ -16,7 +16,7 @@
 
 #### Design:
 
-<img align="center" src="https://github.com/user-attachments/assets/74eb7ec4-2105-4208-add3-7b2c48f08ac2">
+<img align="center" src="https://github.com/user-attachments/assets/17958a50-ae9e-4fe1-a8a6-d63a8896cb07">
 
 #### Tasks:
 
