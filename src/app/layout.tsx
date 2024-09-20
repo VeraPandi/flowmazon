@@ -19,7 +19,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="fr">
-      <body className={inter.className}>
+      <body className={`${inter.className} lg:min-height-calc`}>
         <SessionProvider>
           <Navbar />
           <main className="m-auto min-w-[300px] max-w-7xl p-4">{children}</main>

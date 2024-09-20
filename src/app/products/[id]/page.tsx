@@ -37,13 +37,13 @@ export default async function Page({ params: { id } }: ProductPageProps) {
   const product = await getProduct(id);
 
   return (
-    <div className="flex flex-col gap-4 lg:flex-row lg:items-center">
+    <div className="lg:height-calc flex flex-col justify-center gap-4 lg:flex-row lg:items-center">
       <Image
         src={product.imageUrl}
         alt={product.name}
         width={500}
         height={500}
-        className="rounded-lg"
+        className="inherit-height rounded-lg object-contain"
         priority
       />
 

@@ -2,3 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  .min-height-calc {
+    min-height: calc(100vh - 256px);
+  }
+
+  .height-calc {
+    height: calc(100vh - 290px);
+  }
+
+  .inherit-height {
+    height: inherit;
+  }
+}

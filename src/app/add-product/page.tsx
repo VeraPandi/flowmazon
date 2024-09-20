@@ -20,7 +20,7 @@ async function addProduct(formData: FormData) {
   const name = formData.get("name")?.toString();
   const description = formData.get("description")?.toString();
   const imageUrl = formData.get("imageUrl")?.toString();
-  const price = Number(formData.get("price") || 0); // We add a default value (0) so that an error is not returned
+  const price = Number(formData.get("price") || 0);
 
   if (!name || !description || !imageUrl || !price) {
     throw Error("Missing required fields");
@@ -41,7 +41,7 @@ export default async function Page() {
   }
 
   return (
-    <div>
+    <div className="height-calc">
       <h1 className="mb-3 text-lg font-bold">Ajouter un produit</h1>
 
       <form action={addProduct}>

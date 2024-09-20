@@ -11,7 +11,7 @@ export default async function Page() {
   const cart = await getCart();
 
   return (
-    <div>
+    <div className="height-calc">
       <h1 className="mb-6 text-3xl font-bold">Panier</h1>
       {cart?.items.map((cartItem) => (
         <CartEntry
