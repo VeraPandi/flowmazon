@@ -8,7 +8,7 @@
 [![forthebadge](https://img.shields.io/badge/Use-DaisyUI-19caa0)](https://daisyui.com/)
 [![forthebadge](https://img.shields.io/badge/Use-Tailwindcss-0ea5e9)](https://tailwindcss.com/)
 
-#### **_"Electronic E-Commerce website"_**
+#### **_"Electronic e-commerce website with Nextjs 14"_**
 
 </br>
 
@@ -16,7 +16,9 @@
 
 #### Design:
 
-<img align="center" src="https://github.com/user-attachments/assets/17958a50-ae9e-4fe1-a8a6-d63a8896cb07">
+<img align="center" src="https://github.com/user-attachments/assets/ad9fea22-3200-46cb-88dc-f35b0bcc4894">
+
+
 
 #### Tasks:
 
